@@ -1,0 +1,36 @@
+body, html {
+    background-color: rgb(27, 27, 27);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    text-shadow: 2px 2px 8px #000000;
+    color: red
+}
+button {
+    background-color: #3d3d3d;
+    border: none;
+    margin-top: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 40px;
+    height: 25px;
+    border: 2px solid black
+}
+
+textarea {
+    color: green;
+    border: none;
+    margin-top: -15px;
+    resize: none;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    text-align: center;
+    overflow: hidden;
+}
+
+#result {
+    color: white;
+    text-shadow: 2px 2px 8px #000000;
+    
+}
