@@ -38,6 +38,3 @@ button.addEventListener("click", async (event) => {
       result.value = `Your Country Not Supported!`;
     });
 });
-// random.sound_urls[
-//   random.sound_urls.findIndex((e) => e.includes(`api.twilio.com`))
-// ]
