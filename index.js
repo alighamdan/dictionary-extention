@@ -16,9 +16,7 @@ button.addEventListener("click", async (event) => {
       return response.json();
     })
     .then(async function (data) {
-      if (data.list.length === 0) {
-        result.value = `No Result Found Try With Another Sentence`;
-      }
+      if (data.list.length === 0) result.value = `No Result Found Try With Another Sentence`;
       let random = data.list[Math.floor(Math.random() * data.list.length)];
       result.innerHTML = `<b><a href="${
         random.permalink
